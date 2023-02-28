@@ -13,6 +13,7 @@
 		7DDAF30929AE2A6F0058F320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDAF30829AE2A6F0058F320 /* Preview Assets.xcassets */; };
 		7DF7235F29AE335E0046BB70 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7235E29AE335E0046BB70 /* Action.swift */; };
 		7DF7236129AE34420046BB70 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7236029AE34420046BB70 /* Business.swift */; };
+		7DF7236329AE35090046BB70 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7236229AE35090046BB70 /* MapController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7DDAF30829AE2A6F0058F320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DF7235E29AE335E0046BB70 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		7DF7236029AE34420046BB70 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		7DF7236229AE35090046BB70 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7DDAF30329AE2A6B0058F320 /* ContentView.swift */,
 				7DF7235E29AE335E0046BB70 /* Action.swift */,
 				7DF7236029AE34420046BB70 /* Business.swift */,
+				7DF7236229AE35090046BB70 /* MapController.swift */,
 				7DDAF30529AE2A6F0058F320 /* Assets.xcassets */,
 				7DDAF30729AE2A6F0058F320 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				7DDAF30429AE2A6B0058F320 /* ContentView.swift in Sources */,
 				7DF7236129AE34420046BB70 /* Business.swift in Sources */,
 				7DF7235F29AE335E0046BB70 /* Action.swift in Sources */,
+				7DF7236329AE35090046BB70 /* MapController.swift in Sources */,
 				7DDAF30229AE2A6B0058F320 /* CoffeeSearchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

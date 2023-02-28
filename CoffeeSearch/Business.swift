@@ -12,7 +12,7 @@ struct Business: Identifiable {
     let id = UUID()
     let name: String
     let placemark: MKPlacemark
-    let coordinae: CLLocationCoordinate2D
+    let coordinate: CLLocationCoordinate2D
     let phoneNumber: String
     let website: URL?
 }
