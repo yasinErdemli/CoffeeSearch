@@ -25,23 +25,22 @@ struct BusinessView: View {
                     Image(systemName: "xmark.circle.fill")
                         .foregroundColor(.secondary)
                 }
-                
-                HStack {
-                    ForEach(viewModel.actions) { item in
-                        Button {
-                            item.handler()
-                        } label: {
-                            VStack {
-                                Image(systemName: item.image)
-                            }
-                            .frame(maxWidth: .infinity)
+            }
+            HStack {
+                ForEach(viewModel.actions) { item in
+                    Button {
+                        item.handler()
+                    } label: {
+                        VStack {
+                            Image(systemName: item.image)
                         }
-                        .buttonStyle(.bordered)
+                        .frame(maxWidth: .infinity)
                     }
+                    .buttonStyle(.bordered)
                 }
             }
-            .padding()
         }
+        .padding()
     }
 }
 
