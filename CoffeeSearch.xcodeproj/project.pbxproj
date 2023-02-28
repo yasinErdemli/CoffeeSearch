@@ -38,6 +38,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DCC341C29AE7B4100BA496D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DF7235E29AE335E0046BB70 /* Action.swift */,
+				7DF7236029AE34420046BB70 /* Business.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DCC341D29AE7B4B00BA496D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DDAF30329AE2A6B0058F320 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DCC341F29AE7B5D00BA496D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7DF7236229AE35090046BB70 /* MapController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		7DDAF2F529AE2A6B0058F320 = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +82,10 @@
 		7DDAF30029AE2A6B0058F320 /* CoffeeSearch */ = {
 			isa = PBXGroup;
 			children = (
+				7DCC341F29AE7B5D00BA496D /* ViewModel */,
+				7DCC341D29AE7B4B00BA496D /* Views */,
+				7DCC341C29AE7B4100BA496D /* Model */,
 				7DDAF30129AE2A6B0058F320 /* CoffeeSearchApp.swift */,
-				7DDAF30329AE2A6B0058F320 /* ContentView.swift */,
-				7DF7235E29AE335E0046BB70 /* Action.swift */,
-				7DF7236029AE34420046BB70 /* Business.swift */,
-				7DF7236229AE35090046BB70 /* MapController.swift */,
 				7DDAF30529AE2A6F0058F320 /* Assets.xcassets */,
 				7DDAF30729AE2A6F0058F320 /* Preview Content */,
 			);
