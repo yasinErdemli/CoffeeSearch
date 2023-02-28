@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = MapController()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            MapView(viewModel: viewModel)
         }
-        .padding()
+        .searchable(text: $viewModel.searchTerm)
+        .onSubmit(of: .search) {
+            viewModel.search()
+        }
     }
 }
 

@@ -17,13 +17,13 @@ class MapController: ObservableObject {
     var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 38.46312, longitude: 27.19249), latitudinalMeters: 1600, longitudinalMeters: 1600)
     
     var selectedBusinessName: String {
-        guard let selectedBusiness = selectedBusiness else { return ""}
+        guard let selectedBusiness = selectedBusiness else { return "ExampleBusinessName"}
         
         return selectedBusiness.name
     }
     
     var selectedBusinessPlacemark: String {
-        guard let selectedBusiness = selectedBusiness else { return ""}
+        guard let selectedBusiness = selectedBusiness else { return "London Bridge"}
         return selectedBusiness.placemark.title ?? "??"
     }
     
